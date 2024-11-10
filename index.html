@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress Brochure | BOH4M</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#home" class="nav-link">Managing Stress</a>
+    <p style="color: aliceblue;">You are not alone.</p>
+    <button id="openFormBtn" class="popupBtn">Evaluate Your Stress Level</button>
+  </nav>
+
+  <!-- Home Page Content -->
+  <section id="home">
+    <div class="image-section">
+      <img src="image1.jpg" alt="Image 1">
+      <div class="text-overlay">
+        <h1 style="color: aliceblue;">What is stress</h1>
+        <h2>-------------------------------------------</h2>
+        <p>
+          Stress is your body’s reaction to any change or challenge in life. It can be triggered by both positive and negative 
+          experiences, such as work, family responsibilities, or even enjoyable events. Stress is a natural and normal part of life. 
+          However, when stress becomes overwhelming, it can affect your health and well-being.
+        </p>
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="image2.jpg" alt="Image 2">
+      <div class="text-overlay">
+        <h1 style="color: aliceblue;">Common Causes of Stress</h1>
+        <h2>-------------------------------------------</h2>
+        <p>
+          Stress can come from various sources, including:
+          
+          <br>Work-related stress: Deadlines, workload, job insecurity, or difficult colleagues.
+          <br>Relationship stress: Family issues, conflicts with friends, or romantic relationships.
+          <br>Financial stress: Money problems, debts, or uncertainty about the future.
+          <br>Health problems: Dealing with illness, medical conditions, or personal health concerns.
+          <br>Life changes: Moving, marriage, having children, or losing a loved one.
+          <br>Everyday pressures: Commuting, balancing responsibilities, and societal expectations.</p>
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="image3.jpg" alt="Image 3">
+      <div class="text-overlay">
+        <h1 style="color: aliceblue;">The Effects of Stress</h1>
+        <h2>-------------------------------------------</h2>
+        <p>
+          Stress can have both short-term and long-term effects on your physical, emotional, and mental health, including:
+
+          <br>Physical Effects:
+
+          <br>Increased heart rate
+          <br>Tension in muscles (headaches, neck pain)
+          <br>Weak immune system (more likely to catch colds)
+          <br>Sleep disturbances (insomnia or oversleeping)
+          <br>Emotional and Mental Effects:
+
+          <br>Irritability or mood swings
+          <br>Anxiety or restlessness
+          <br>Feeling overwhelmed or helpless
+          <br>Difficulty concentrating
+        </p>
+      </div>
+    </div>
+    </section>
+    <div class="image-section">
+      <img src="image4.jpg" alt="Image 4">
+      <div class="text-overlay">
+        <h1 style="color: aliceblue;">How to Manage Stress</h1>
+        <h2>-------------------------------------------</h2>
+        <p>
+          While stress is inevitable, there are many ways to manage it effectively. Here are some strategies to cope with stress:
+
+          <br>Physical Exercise:
+
+          Regular physical activity helps reduce stress hormones and produces endorphins, which are natural mood boosters.
+          Try activities like yoga, running, swimming, or simply taking walks.
+          <br>Relaxation Techniques:
+
+          Practice deep breathing exercises, meditation, or progressive muscle relaxation.
+          Take a break when feeling overwhelmed, and focus on calming your mind.
+          Healthy Lifestyle:
+
+          Maintain a balanced diet to support your body’s ability to manage stress.
+          Avoid excessive caffeine, alcohol, and tobacco as they can increase stress levels.
+          <br>Time Management:
+
+          Break tasks into smaller, manageable steps.
+          Prioritize tasks and set realistic goals for yourself.
+          <br>Social Support:
+
+          Share your feelings with friends, family, or a counselor. Talking to someone can help you feel less isolated.
+          Join a support group or seek professional counseling if needed.
+          <br>Sleep Well:
+
+          Aim for 7-9 hours of quality sleep per night.
+          Create a relaxing bedtime routine and avoid screens before sleep.
+          <br>Mindfulness and Relaxation:
+
+          Practice mindfulness to stay present in the moment and avoid worrying about the past or future.
+          Engage in hobbies and activities that make you happy.
+
+        </p>
+      </div>
+    </div>
+    </section>
+
+    <div class="image-section">
+      <img src="image5.jpg" alt="Image 5">
+      <div class="text-overlay">
+        <p>
+          Remember, stress is a part of life, but it doesn’t have to control you. By understanding your stress and implementing effective strategies, you can take control of your health and well-being. Start today with small changes, and gradually build a healthier, more balanced lifestyle.
+
+          For more information, tips, or professional support, feel free to reach out to us at the links below.
+
+        </p>
+      </div>
+    </div>
+    </section>
+
+    <div id="popupForm" class="popup">
+      <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Stress Level Evaluation</h2>
+
+          <br><form id="stressForm">
+              <div class="question">
+                  <p>1. How often do you feel overwhelmed by your responsibilities?</p>
+                  <label><input type="radio" name="question1" value="3"> Always</label>
+                  <label><input type="radio" name="question1" value="2"> Often</label>
+                  <label><input type="radio" name="question1" value="1"> Sometimes</label>
+                  <label><input type="radio" name="question1" value="0"> Rarely</label>
+              </div>
+
+              <div class="question">
+                  <p>2. How often do you feel like you can’t control important things in your life?</p>
+                  <label><input type="radio" name="question2" value="3"> Always</label>
+                  <label><input type="radio" name="question2" value="2"> Often</label>
+                  <label><input type="radio" name="question2" value="1"> Sometimes</label>
+                  <label><input type="radio" name="question2" value="0"> Rarely</label>
+              </div>
+
+              <div class="question">
+                  <p>3. How often do you find yourself unable to relax?</p>
+                  <label><input type="radio" name="question3" value="3"> Always</label>
+                  <label><input type="radio" name="question3" value="2"> Often</label>
+                  <label><input type="radio" name="question3" value="1"> Sometimes</label>
+                  <label><input type="radio" name="question3" value="0"> Rarely</label>
+              </div>
+
+              <div class="question">
+                <p>4. How often do you feel irritable or frustrated?</p>
+                <label><input type="radio" name="question4" value="3"> Always</label>
+                <label><input type="radio" name="question4" value="2"> Often</label>
+                <label><input type="radio" name="question4" value="1"> Sometimes</label>
+                <label><input type="radio" name="question4" value="0"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <p>5. How often do you have difficulty sleeping or staying asleep?</p>
+                <label><input type="radio" name="question5" value="3"> Always</label>
+                <label><input type="radio" name="question5" value="2"> Often</label>
+                <label><input type="radio" name="question5" value="1"> Sometimes</label>
+                <label><input type="radio" name="question5" value="0"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <p>6. How often do you feel fatigued or low on energy?</p>
+                <label><input type="radio" name="question6" value="3"> Always</label>
+                <label><input type="radio" name="question6" value="2"> Often</label>
+                <label><input type="radio" name="question6" value="1"> Sometimes</label>
+                <label><input type="radio" name="question6" value="0"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <p>7. How often do you experience physical symptoms like headaches or muscle tension?</p>
+                <label><input type="radio" name="question7" value="3"> Always</label>
+                <label><input type="radio" name="question7" value="2"> Often</label>
+                <label><input type="radio" name="question7" value="1"> Sometimes</label>
+                <label><input type="radio" name="question7" value="0"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <p>8. How often do you feel anxious or nervous without a specific reason?</p>
+                <label><input type="radio" name="question8" value="3"> Always</label>
+                <label><input type="radio" name="question8" value="2"> Often</label>
+                <label><input type="radio" name="question8" value="1"> Sometimes</label>
+                <label><input type="radio" name="question8" value="0"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <p>9. How often do you feel distracted or have difficulty focusing?</p>
+                <label><input type="radio" name="question9" value="3"> Always</label>
+                <label><input type="radio" name="question9" value="2"> Often</label>
+                <label><input type="radio" name="question9" value="1"> Sometimes</label>
+                <label><input type="radio" name="question9" value="0"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <p>10. How often do you feel a lack of motivation or interest in activities you usually enjoy?</p>
+                <label><input type="radio" name="question10" value="3"> Always</label>
+                <label><input type="radio" name="question10" value="2"> Often</label>
+                <label><input type="radio" name="question10" value="1"> Sometimes</label>
+                <label><input type="radio" name="question10" value="0"> Rarely</label>
+            </div>
+            
+
+            <br><button type="button" onclick="evaluateStress()">Submit</button>
+          </form>
+
+          <div id="result"></div>
+      </div>
+  </div>
+
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Bill Le  | BOH4M. All rights reserved.</p>
+      <div class="footer-buttons">
+        <a href="#home" class="footer-btn">^ Back to top ^</a>
+        <a href="https://www.canada.ca/en/health-canada/services/healthy-living/your-health/lifestyles/your-health-mental-health-coping-stress-health-canada-2008.html" target="_blank" class="footer-btn">Get help</a>
+        <a href="http://www.ontario.ca/page/find-mental-health-support" target="_blank" class="footer-btn">Support</a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqbzlmfNwjRcjCBTGTlbJJPngFQqpFvwlZZNVVZNSQvdvWZwCkPNWqHSbRtXVgkqbnSCKg" target="_blank" class="footer-btn">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
